@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #eee7e7;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.input-group {
+    flex: 1;
+    min-width: 150px;
+    margin-bottom: 0;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 12px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.input-group input::placeholder {
+    font-size: 12px;
+}
+
+.input-group select {
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.25);
+}
+
+.submit-button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 18px;
+    transition: background-color 0.3s, color 0.3s;
+    flex: none;
+    align-self: center;
+}
+
+.load-more-button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.load-more-button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.load-more-button:hover {
+    background-color: #181515;
+    color: #fff;
+}
+
+.submit-button:hover {
+    background-color: #2a2323;
+    color: #fff;
+}
+
+.table-container {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #dddddd;
+    color: #333;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+tbody tr:hover {
+    background-color: #dddddd;
+}
+
+.table-container .submit-button {
+    width: auto;
+    margin-top: 20px;
+}

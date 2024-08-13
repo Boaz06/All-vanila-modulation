@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews Moderation Tool</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Reviews Moderation Tool</h1>
+        </header>
+        <div class="form-container">
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="textInput1">Filter by resource</label>
+                    <input type="text" id="textInput1" placeholder="Type the resource ....">
+                </div>
+                <div class="input-group">
+                    <label for="textInput2">Filter by Username</label>
+                    <input type="text" id="textInput2" placeholder="Type the Username....">
+                </div>
+                <div class="input-group">
+                    <label for="selectInput1">Filter by status</label>
+                    <select id="selectInput1">
+                        <option value="">Pending</option>
+                        <option value="option1">Approved</option>
+                        <option value="option2">Rejected</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="selectInput2">Filter by AI status</label>
+                    <select id="selectInput2">
+                        <option value="">Select AI status</option>
+                        <option value="option1">Suspect</option>
+                        <option value="option2">Accepted</option>
+                        <option value="option3">Rejected</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="dateInput1">From</label>
+                    <input type="date" id="dateInput1" placeholder="Choose From date">
+                </div>
+                <div class="input-group">
+                    <label for="dateInput2">To</label>
+                    <input type="date" id="dateInput2" placeholder="Choose To date">
+                </div>
+                <div class="input-group">
+                    <button type="button" class="submit-button">Search</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="table-container">
+          <table>
+            <thead>
+                <tr>
+                    <th>Resource</th>
+                    <th>User</th>
+                    <th>Rating</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>AI Status</th>
+                    <th>Timestamp</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Resource 1</td>
+                    <td>User 1</td>
+                    <td>5</td>
+                    <td>Title 1</td>
+                    <td>Description 1</td>
+                    <td>Status 1</td>
+                    <td>AI Status 1</td>
+                    <td>Timestamp 1</td>
+                    <td>Actions 1</td>
+                </tr>
+                <tr>
+                    <td>Resource 2</td>
+                    <td>User 2</td>
+                    <td>4</td>
+                    <td>Title 2</td>
+                    <td>Description 2</td>
+                    <td>Status 2</td>
+                    <td>AI Status 2</td>
+                    <td>Timestamp 2</td>
+                    <td>Actions 2</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+        <div class="load-more-button-container">
+          <button type="button" class="submit-button load-more-button">Load More</button>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
